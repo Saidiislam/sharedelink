@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Sharelink from './components/Sharelink'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sharelink
+      label="Share"
+      title="My Web Share Adventures"
+      text="Hello World! I shared this content via Web Share"
+    />
     </div>
   );
 }
